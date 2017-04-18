@@ -10,30 +10,30 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_25.png?1492526054085", id:"_25"},
-		{src:"images/_1.png?1492526054085", id:"_1"},
-		{src:"images/_10.png?1492526054085", id:"_10"},
-		{src:"images/_11.png?1492526054085", id:"_11"},
-		{src:"images/_12.png?1492526054085", id:"_12"},
-		{src:"images/_2.png?1492526054085", id:"_2"},
-		{src:"images/_3.png?1492526054085", id:"_3"},
-		{src:"images/_4.png?1492526054085", id:"_4"},
-		{src:"images/_5.png?1492526054085", id:"_5"},
-		{src:"images/_6.png?1492526054085", id:"_6"},
-		{src:"images/_7.png?1492526054085", id:"_7"},
-		{src:"images/_8.png?1492526054085", id:"_8"},
-		{src:"images/_9.png?1492526054085", id:"_9"},
-		{src:"images/back1.jpg?1492526054085", id:"back1"},
-		{src:"images/back2.jpg?1492526054085", id:"back2"},
-		{src:"images/back3.jpg?1492526054085", id:"back3"},
-		{src:"images/back4.png?1492526054085", id:"back4"},
-		{src:"images/cta.png?1492526054085", id:"cta"},
-		{src:"images/flare.png?1492526054085", id:"flare"},
-		{src:"images/legal1.png?1492526054085", id:"legal1"},
-		{src:"images/legal21.png?1492526054085", id:"legal21"},
-		{src:"images/legal22.png?1492526054085", id:"legal22"},
-		{src:"images/logo.png?1492526054085", id:"logo"},
-		{src:"images/replaybtn.png?1492526054085", id:"replaybtn"}
+		{src:"images/_25.png?1492536862058", id:"_25"},
+		{src:"images/_1.png?1492536862058", id:"_1"},
+		{src:"images/_10.png?1492536862058", id:"_10"},
+		{src:"images/_11.png?1492536862058", id:"_11"},
+		{src:"images/_12.png?1492536862058", id:"_12"},
+		{src:"images/_2.png?1492536862058", id:"_2"},
+		{src:"images/_3.png?1492536862058", id:"_3"},
+		{src:"images/_4.png?1492536862058", id:"_4"},
+		{src:"images/_5.png?1492536862058", id:"_5"},
+		{src:"images/_6.png?1492536862058", id:"_6"},
+		{src:"images/_7.png?1492536862058", id:"_7"},
+		{src:"images/_8.png?1492536862058", id:"_8"},
+		{src:"images/_9.png?1492536862058", id:"_9"},
+		{src:"images/back1.jpg?1492536862058", id:"back1"},
+		{src:"images/back2.jpg?1492536862058", id:"back2"},
+		{src:"images/back3.jpg?1492536862058", id:"back3"},
+		{src:"images/back4.png?1492536862058", id:"back4"},
+		{src:"images/cta.png?1492536862058", id:"cta"},
+		{src:"images/flare.png?1492536862058", id:"flare"},
+		{src:"images/legal1.png?1492536862058", id:"legal1"},
+		{src:"images/legal21.png?1492536862058", id:"legal21"},
+		{src:"images/legal22.png?1492536862058", id:"legal22"},
+		{src:"images/logo.png?1492536862058", id:"logo"},
+		{src:"images/replaybtn.png?1492536862058", id:"replaybtn"}
 	]
 };
 
@@ -745,21 +745,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,160,600);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(75.1,214.5,1,1,0,0,0,75,62.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(26).to({x:75,alpha:0.02},4,cjs.Ease.get(1)).to({_off:true},1).wait(51));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(49).to({x:75,alpha:0.02},4,cjs.Ease.get(1)).to({_off:true},1).wait(28));
 
 	// sq
 	this.instance_2 = new lib.sq();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(75,364.5,1,1,0,0,0,75,62.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(48).to({x:75.1},0).to({x:75,alpha:0.02},4).to({_off:true},1).wait(29));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(26).to({x:75.1},0).to({x:75,alpha:0.02},4).to({_off:true},1).wait(51));
 
 	// sq
 	this.instance_3 = new lib.sq();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(75.1,513.5,1,1,0,0,0,75,62.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(72).to({y:514.5,alpha:0},4).to({_off:true},1).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(75).to({y:514.5,alpha:0},4).to({_off:true},1).wait(2));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-1.1,-3,161.2,603);

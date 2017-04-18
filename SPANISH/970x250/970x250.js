@@ -10,22 +10,22 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_25.png?1492533048531", id:"_25"},
-		{src:"images/_1.png?1492533048531", id:"_1"},
-		{src:"images/_3.png?1492533048531", id:"_3"},
-		{src:"images/_4.png?1492533048531", id:"_4"},
-		{src:"images/_5.png?1492533048531", id:"_5"},
-		{src:"images/back1.jpg?1492533048531", id:"back1"},
-		{src:"images/back2.jpg?1492533048531", id:"back2"},
-		{src:"images/back3.jpg?1492533048531", id:"back3"},
-		{src:"images/back4.png?1492533048531", id:"back4"},
-		{src:"images/cta.png?1492533048531", id:"cta"},
-		{src:"images/flare.png?1492533048531", id:"flare"},
-		{src:"images/legal1.png?1492533048531", id:"legal1"},
-		{src:"images/legal21.png?1492533048531", id:"legal21"},
-		{src:"images/legal22.png?1492533048531", id:"legal22"},
-		{src:"images/logopngcopy.png?1492533048531", id:"logopngcopy"},
-		{src:"images/replaybtn.png?1492533048531", id:"replaybtn"}
+		{src:"images/_25.png?1492537107320", id:"_25"},
+		{src:"images/_1.png?1492537107320", id:"_1"},
+		{src:"images/_3.png?1492537107320", id:"_3"},
+		{src:"images/_4.png?1492537107320", id:"_4"},
+		{src:"images/_5.png?1492537107320", id:"_5"},
+		{src:"images/back1.jpg?1492537107320", id:"back1"},
+		{src:"images/back2.jpg?1492537107320", id:"back2"},
+		{src:"images/back3.jpg?1492537107320", id:"back3"},
+		{src:"images/back4.png?1492537107320", id:"back4"},
+		{src:"images/cta.png?1492537107320", id:"cta"},
+		{src:"images/flare.png?1492537107320", id:"flare"},
+		{src:"images/legal1.png?1492537107320", id:"legal1"},
+		{src:"images/legal21.png?1492537107320", id:"legal21"},
+		{src:"images/legal22.png?1492537107320", id:"legal22"},
+		{src:"images/logopngcopy.png?1492537107320", id:"logopngcopy"},
+		{src:"images/replaybtn.png?1492537107320", id:"replaybtn"}
 	]
 };
 
@@ -604,21 +604,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,970,250);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(313,62.5,1,1,0,0,0,75,62.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(26).to({alpha:0},4).to({_off:true},1).wait(51));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(49).to({alpha:0},4).to({_off:true},1).wait(28));
 
 	// sq
 	this.instance_2 = new lib.sq();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(481.8,125.8,1.007,1,0,0,0,-1.2,126.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(48).to({alpha:0},4).to({_off:true},1).wait(29));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(25).to({alpha:0},4).to({_off:true},1).wait(52));
 
 	// sq
 	this.instance_3 = new lib.sq();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(726,-0.3,1.033,1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(72).to({alpha:0},4).to({_off:true},1).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(74).to({alpha:0},4).to({_off:true},1).wait(3));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-1.2,-1,976.2,254);
