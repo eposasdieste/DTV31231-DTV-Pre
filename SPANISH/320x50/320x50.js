@@ -10,10 +10,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/back.png?1492534628997", id:"back"},
-		{src:"images/copy.png?1492534628997", id:"copy"},
-		{src:"images/cta.png?1492534628997", id:"cta"},
-		{src:"images/flare.png?1492534628997", id:"flare"}
+		{src:"images/back.png?1492623925028", id:"back"},
+		{src:"images/copy.png?1492623925028", id:"copy"},
+		{src:"images/cta.png?1492623925028", id:"cta"},
+		{src:"images/flare.png?1492623925028", id:"flare"}
 	]
 };
 
