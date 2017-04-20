@@ -10,22 +10,22 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_25.png?1492623990333", id:"_25"},
-		{src:"images/_1.png?1492623990333", id:"_1"},
-		{src:"images/_2.png?1492623990333", id:"_2"},
-		{src:"images/_3.png?1492623990333", id:"_3"},
-		{src:"images/_4.png?1492623990333", id:"_4"},
-		{src:"images/back1.jpg?1492623990333", id:"back1"},
-		{src:"images/back2.jpg?1492623990333", id:"back2"},
-		{src:"images/back3.jpg?1492623990333", id:"back3"},
-		{src:"images/back4.png?1492623990333", id:"back4"},
-		{src:"images/cta.png?1492623990333", id:"cta"},
-		{src:"images/flare.png?1492623990333", id:"flare"},
-		{src:"images/legal1.png?1492623990333", id:"legal1"},
-		{src:"images/legal21.png?1492623990333", id:"legal21"},
-		{src:"images/legal22.png?1492623990333", id:"legal22"},
-		{src:"images/logo.png?1492623990333", id:"logo"},
-		{src:"images/replaybtn.png?1492623990333", id:"replaybtn"}
+		{src:"images/_25.png?1492722838060", id:"_25"},
+		{src:"images/_1.png?1492722838060", id:"_1"},
+		{src:"images/_2.png?1492722838060", id:"_2"},
+		{src:"images/_3.png?1492722838060", id:"_3"},
+		{src:"images/_4.png?1492722838060", id:"_4"},
+		{src:"images/back1.jpg?1492722838060", id:"back1"},
+		{src:"images/back2.jpg?1492722838060", id:"back2"},
+		{src:"images/back3.jpg?1492722838060", id:"back3"},
+		{src:"images/back4.png?1492722838060", id:"back4"},
+		{src:"images/cta.png?1492722838060", id:"cta"},
+		{src:"images/flare.png?1492722838060", id:"flare"},
+		{src:"images/legal1.png?1492722838060", id:"legal1"},
+		{src:"images/legal21.png?1492722838060", id:"legal21"},
+		{src:"images/legal22.png?1492722838060", id:"legal22"},
+		{src:"images/logo.png?1492722838060", id:"logo"},
+		{src:"images/replaybtn.png?1492722838060", id:"replaybtn"}
 	]
 };
 
@@ -1819,7 +1819,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	// tv-effect
 	this.instance_12 = new lib.tveffect("synched",0,false);
 	this.instance_12.parent = this;
-	this.instance_12.setTransform(182.2,156.7,1.93,1.93,0,0,0,-38.9,-108.4);
+	this.instance_12.setTransform(186.1,156.6,1.864,1.864,0,0,0,-38.9,-108.4);
 	this.instance_12._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(379).to({_off:false},0).to({_off:true},65).wait(518));

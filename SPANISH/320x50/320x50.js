@@ -10,10 +10,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/back.png?1492623925028", id:"back"},
-		{src:"images/copy.png?1492623925028", id:"copy"},
-		{src:"images/cta.png?1492623925028", id:"cta"},
-		{src:"images/flare.png?1492623925028", id:"flare"}
+		{src:"images/back.png?1492722356624", id:"back"},
+		{src:"images/copy.png?1492722356624", id:"copy"},
+		{src:"images/cta.png?1492722356624", id:"cta"},
+		{src:"images/flare.png?1492722356624", id:"flare"}
 	]
 };
 
@@ -61,20 +61,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,156,18);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,156,18);
-
-
-(lib.clickarea = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(255,255,255,0.008)").s().p("A3bTiMAAAgnDMAu2AAAMAAAAnDg");
-	this.shape.setTransform(150,125);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 
 
 (lib.legal = function(mode,startPosition,loop) {
@@ -141,6 +127,20 @@ p.nominalBounds = new cjs.Rectangle(53,25.1,126,16);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(57,4.1,123,20);
+
+
+(lib.clickarea = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("rgba(255,255,255,0.008)").s().p("A3bTiMAAAgnDMAu2AAAMAAAAnDg");
+	this.shape.setTransform(150,125);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 
 
 (lib.cta_1 = function(mode,startPosition,loop) {

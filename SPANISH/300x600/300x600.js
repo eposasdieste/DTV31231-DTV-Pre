@@ -10,29 +10,29 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_25.png?1492623823723", id:"_25"},
-		{src:"images/_1.png?1492623823723", id:"_1"},
-		{src:"images/_10.png?1492623823723", id:"_10"},
-		{src:"images/_11.png?1492623823723", id:"_11"},
-		{src:"images/_2.png?1492623823723", id:"_2"},
-		{src:"images/_3.png?1492623823723", id:"_3"},
-		{src:"images/_4.png?1492623823723", id:"_4"},
-		{src:"images/_44.png?1492623823723", id:"_44"},
-		{src:"images/_5.png?1492623823723", id:"_5"},
-		{src:"images/_6.png?1492623823723", id:"_6"},
-		{src:"images/_8.png?1492623823723", id:"_8"},
-		{src:"images/_9.png?1492623823723", id:"_9"},
-		{src:"images/back1.jpg?1492623823723", id:"back1"},
-		{src:"images/back2.jpg?1492623823723", id:"back2"},
-		{src:"images/back3.jpg?1492623823723", id:"back3"},
-		{src:"images/back4.png?1492623823723", id:"back4"},
-		{src:"images/cta.png?1492623823723", id:"cta"},
-		{src:"images/flare.png?1492623823723", id:"flare"},
-		{src:"images/legal1.png?1492623823723", id:"legal1"},
-		{src:"images/legal21.png?1492623823723", id:"legal21"},
-		{src:"images/legal22.png?1492623823723", id:"legal22"},
-		{src:"images/logo.png?1492623823723", id:"logo"},
-		{src:"images/replaybtn.png?1492623823723", id:"replaybtn"}
+		{src:"images/_25.png?1492720996404", id:"_25"},
+		{src:"images/_1.png?1492720996404", id:"_1"},
+		{src:"images/_10.png?1492720996404", id:"_10"},
+		{src:"images/_11.png?1492720996404", id:"_11"},
+		{src:"images/_2.png?1492720996404", id:"_2"},
+		{src:"images/_3.png?1492720996404", id:"_3"},
+		{src:"images/_4.png?1492720996404", id:"_4"},
+		{src:"images/_44.png?1492720996404", id:"_44"},
+		{src:"images/_6.png?1492720996404", id:"_6"},
+		{src:"images/_8.png?1492720996404", id:"_8"},
+		{src:"images/_9.png?1492720996404", id:"_9"},
+		{src:"images/_5.png?1492720996404", id:"_5"},
+		{src:"images/back1.jpg?1492720996404", id:"back1"},
+		{src:"images/back2.jpg?1492720996404", id:"back2"},
+		{src:"images/back3.jpg?1492720996404", id:"back3"},
+		{src:"images/back4.png?1492720996404", id:"back4"},
+		{src:"images/cta.png?1492720996404", id:"cta"},
+		{src:"images/flare.png?1492720996404", id:"flare"},
+		{src:"images/legal1.png?1492720996404", id:"legal1"},
+		{src:"images/legal21.png?1492720996404", id:"legal21"},
+		{src:"images/legal22.png?1492720996404", id:"legal22"},
+		{src:"images/logo.png?1492720996404", id:"logo"},
+		{src:"images/replaybtn.png?1492720996404", id:"replaybtn"}
 	]
 };
 
@@ -93,12 +93,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,600,1200);
 p.nominalBounds = new cjs.Rectangle(0,0,600,1200);
 
 
-(lib._5 = function() {
-	this.initialize(img._5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,600,1200);
-
-
 (lib._6 = function() {
 	this.initialize(img._6);
 }).prototype = p = new cjs.Bitmap();
@@ -113,6 +107,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,600,1200);
 
 (lib._9 = function() {
 	this.initialize(img._9);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,600,1200);
+
+
+(lib._5 = function() {
+	this.initialize(img._5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,600,1200);
 
@@ -138,7 +138,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,600);
 (lib.back4 = function() {
 	this.initialize(img.back4);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,600,1200);
+p.nominalBounds = new cjs.Rectangle(0,0,300,600);
 
 
 (lib.cta = function() {
@@ -2185,7 +2185,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	// tv-effect
 	this.instance_19 = new lib.tveffect("synched",0,false);
 	this.instance_19.parent = this;
-	this.instance_19.setTransform(-100,143.6,2.422,2.422,0,0,0,-38.2,-229.7);
+	this.instance_19.setTransform(-78.1,141.4,2.301,2.3,0,0,-0.8,-38.2,-229.6);
 	this.instance_19._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(379).to({_off:false},0).to({_off:true},52).wait(531));
@@ -2221,7 +2221,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 
 	this.instance_25 = new lib.back4();
 	this.instance_25.parent = this;
-	this.instance_25.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_22}]}).to({state:[{t:this.instance_22}]},75).to({state:[{t:this.instance_23}]},96).to({state:[{t:this.instance_24}]},208).to({state:[{t:this.instance_25}]},273).wait(310));
 	this.timeline.addTween(cjs.Tween.get(this.instance_22).to({scaleX:1,scaleY:1,x:150,y:122.1},75,cjs.Ease.get(1)).to({_off:true},96).wait(791));
