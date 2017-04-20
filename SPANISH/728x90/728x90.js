@@ -10,22 +10,22 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_25.png?1492731335344", id:"_25"},
-		{src:"images/_1.png?1492731335345", id:"_1"},
-		{src:"images/_2.png?1492731335345", id:"_2"},
-		{src:"images/_3.png?1492731335345", id:"_3"},
-		{src:"images/_4.png?1492731335345", id:"_4"},
-		{src:"images/back1.jpg?1492731335345", id:"back1"},
-		{src:"images/back2.jpg?1492731335345", id:"back2"},
-		{src:"images/back3.jpg?1492731335345", id:"back3"},
-		{src:"images/back4.png?1492731335345", id:"back4"},
-		{src:"images/cta.png?1492731335345", id:"cta"},
-		{src:"images/flare.png?1492731335345", id:"flare"},
-		{src:"images/legal1.png?1492731335345", id:"legal1"},
-		{src:"images/legal21.png?1492731335345", id:"legal21"},
-		{src:"images/legal22.png?1492731335345", id:"legal22"},
-		{src:"images/logo.png?1492731335345", id:"logo"},
-		{src:"images/replaybtn.png?1492731335345", id:"replaybtn"}
+		{src:"images/_25.png?1492732011618", id:"_25"},
+		{src:"images/_1.png?1492732011618", id:"_1"},
+		{src:"images/_2.png?1492732011618", id:"_2"},
+		{src:"images/_3.png?1492732011618", id:"_3"},
+		{src:"images/_4.png?1492732011618", id:"_4"},
+		{src:"images/back1.jpg?1492732011618", id:"back1"},
+		{src:"images/back2.jpg?1492732011618", id:"back2"},
+		{src:"images/back3.jpg?1492732011618", id:"back3"},
+		{src:"images/back4.png?1492732011618", id:"back4"},
+		{src:"images/cta.png?1492732011618", id:"cta"},
+		{src:"images/flare.png?1492732011619", id:"flare"},
+		{src:"images/legal1.png?1492732011619", id:"legal1"},
+		{src:"images/legal21.png?1492732011619", id:"legal21"},
+		{src:"images/legal22.png?1492732011619", id:"legal22"},
+		{src:"images/logo.png?1492732011619", id:"logo"},
+		{src:"images/replaybtn.png?1492732011619", id:"replaybtn"}
 	]
 };
 
@@ -1819,18 +1819,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	// tv-effect
 	this.instance_12 = new lib.tveffect("synched",0,false);
 	this.instance_12.parent = this;
-	this.instance_12.setTransform(186.1,156.6,1.864,1.864,0,0,0,-38.9,-108.4);
+	this.instance_12.setTransform(182.2,-69.4,1.916,1.916,0,0,0,-38.3,-229.6);
 	this.instance_12._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(379).to({_off:false},0).to({_off:true},65).wait(518));
-
-	// tv-effect
-	this.shape_242 = new cjs.Shape();
-	this.shape_242.graphics.f("#000000").s().p("EggAAJmIAAzMMBABAAAIAATMg");
-	this.shape_242.setTransform(384.1,41.6);
-	this.shape_242._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_242).wait(379).to({_off:false},0).to({_off:true},29).wait(554));
 
 	// flare-top
 	this.instance_13 = new lib.flaretop();
