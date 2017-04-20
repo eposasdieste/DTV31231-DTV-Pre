@@ -10,22 +10,22 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_25.png?1492722838060", id:"_25"},
-		{src:"images/_1.png?1492722838060", id:"_1"},
-		{src:"images/_2.png?1492722838060", id:"_2"},
-		{src:"images/_3.png?1492722838060", id:"_3"},
-		{src:"images/_4.png?1492722838060", id:"_4"},
-		{src:"images/back1.jpg?1492722838060", id:"back1"},
-		{src:"images/back2.jpg?1492722838060", id:"back2"},
-		{src:"images/back3.jpg?1492722838060", id:"back3"},
-		{src:"images/back4.png?1492722838060", id:"back4"},
-		{src:"images/cta.png?1492722838060", id:"cta"},
-		{src:"images/flare.png?1492722838060", id:"flare"},
-		{src:"images/legal1.png?1492722838060", id:"legal1"},
-		{src:"images/legal21.png?1492722838060", id:"legal21"},
-		{src:"images/legal22.png?1492722838060", id:"legal22"},
-		{src:"images/logo.png?1492722838060", id:"logo"},
-		{src:"images/replaybtn.png?1492722838060", id:"replaybtn"}
+		{src:"images/_25.png?1492731335344", id:"_25"},
+		{src:"images/_1.png?1492731335345", id:"_1"},
+		{src:"images/_2.png?1492731335345", id:"_2"},
+		{src:"images/_3.png?1492731335345", id:"_3"},
+		{src:"images/_4.png?1492731335345", id:"_4"},
+		{src:"images/back1.jpg?1492731335345", id:"back1"},
+		{src:"images/back2.jpg?1492731335345", id:"back2"},
+		{src:"images/back3.jpg?1492731335345", id:"back3"},
+		{src:"images/back4.png?1492731335345", id:"back4"},
+		{src:"images/cta.png?1492731335345", id:"cta"},
+		{src:"images/flare.png?1492731335345", id:"flare"},
+		{src:"images/legal1.png?1492731335345", id:"legal1"},
+		{src:"images/legal21.png?1492731335345", id:"legal21"},
+		{src:"images/legal22.png?1492731335345", id:"legal22"},
+		{src:"images/logo.png?1492731335345", id:"logo"},
+		{src:"images/replaybtn.png?1492731335345", id:"replaybtn"}
 	]
 };
 
