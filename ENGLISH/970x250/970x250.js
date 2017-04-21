@@ -10,23 +10,23 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_25.png?1492623535751", id:"_25"},
-		{src:"images/_1.png?1492623535751", id:"_1"},
-		{src:"images/_2.png?1492623535751", id:"_2"},
-		{src:"images/_3.png?1492623535751", id:"_3"},
-		{src:"images/_4.png?1492623535751", id:"_4"},
-		{src:"images/_5.png?1492623535751", id:"_5"},
-		{src:"images/back1.jpg?1492623535751", id:"back1"},
-		{src:"images/back2.jpg?1492623535751", id:"back2"},
-		{src:"images/back3.jpg?1492623535751", id:"back3"},
-		{src:"images/back4.png?1492623535751", id:"back4"},
-		{src:"images/cta.png?1492623535751", id:"cta"},
-		{src:"images/flare.png?1492623535751", id:"flare"},
-		{src:"images/legal1.png?1492623535751", id:"legal1"},
-		{src:"images/legal21.png?1492623535751", id:"legal21"},
-		{src:"images/legal22.png?1492623535751", id:"legal22"},
-		{src:"images/logopngcopy.png?1492623535751", id:"logopngcopy"},
-		{src:"images/replaybtn.png?1492623535751", id:"replaybtn"}
+		{src:"images/_25.png?1492737489489", id:"_25"},
+		{src:"images/_1.png?1492737489489", id:"_1"},
+		{src:"images/_2.png?1492737489489", id:"_2"},
+		{src:"images/_3.png?1492737489489", id:"_3"},
+		{src:"images/_4.png?1492737489489", id:"_4"},
+		{src:"images/_5.png?1492737489489", id:"_5"},
+		{src:"images/back1.jpg?1492737489489", id:"back1"},
+		{src:"images/back2.jpg?1492737489489", id:"back2"},
+		{src:"images/back3.jpg?1492737489489", id:"back3"},
+		{src:"images/back4.png?1492737489489", id:"back4"},
+		{src:"images/cta.png?1492737489489", id:"cta"},
+		{src:"images/flare.png?1492737489489", id:"flare"},
+		{src:"images/legal1.png?1492737489489", id:"legal1"},
+		{src:"images/legal21.png?1492737489489", id:"legal21"},
+		{src:"images/legal22.png?1492737489489", id:"legal22"},
+		{src:"images/logopngcopy.png?1492737489489", id:"logopngcopy"},
+		{src:"images/replaybtn.png?1492737489489", id:"replaybtn"}
 	]
 };
 
@@ -675,7 +675,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 		
 		// define clickTag in html doc
 	}
-	this.frame_942 = function() {
+	this.frame_975 = function() {
 		var cta = this.cta;
 		this.ctaclick.cursor = 'pointer';
 		this.cta.gotoAndPlay('shimmer');
@@ -688,7 +688,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 			cta.gotoAndPlay('shimmer');
 		});
 	}
-	this.frame_960 = function() {
+	this.frame_993 = function() {
 		var r = this.reload;
 		r.cursor = 'pointer';
 		
@@ -705,12 +705,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 			TweenLite.to(r, 0.5, { rotation:0 });
 		});
 	}
-	this.frame_961 = function() {
+	this.frame_994 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(942).call(this.frame_942).wait(18).call(this.frame_960).wait(1).call(this.frame_961).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(975).call(this.frame_975).wait(18).call(this.frame_993).wait(1).call(this.frame_994).wait(1));
 
 	// reload
 	this.reload = new lib.reload();
@@ -719,7 +719,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.reload.alpha = 0;
 	this.reload._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.reload).wait(960).to({_off:false},0).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.reload).wait(993).to({_off:false},0).wait(2));
 
 	// ctaclickarea
 	this.ctaclick = new lib.clickarea();
@@ -727,14 +727,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.ctaclick.setTransform(528.6,110.1,0.535,0.14,0,0,0,150.2,126.2);
 	this.ctaclick._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.ctaclick).wait(942).to({_off:false},0).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.ctaclick).wait(975).to({_off:false},0).wait(20));
 
 	// clickarea
 	this.clickarea = new lib.clickarea();
 	this.clickarea.parent = this;
 	this.clickarea.setTransform(0,0,3.236,1);
 
-	this.timeline.addTween(cjs.Tween.get(this.clickarea).wait(962));
+	this.timeline.addTween(cjs.Tween.get(this.clickarea).wait(995));
 
 	// cta
 	this.cta = new lib.cta_1();
@@ -743,28 +743,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.cta.alpha = 0;
 	this.cta._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.cta).wait(909).to({_off:false},0).to({alpha:1},33).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.cta).wait(942).to({_off:false},0).to({alpha:1},33).wait(20));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#959595").ss(1,1,1).p("EhLugTeMCXdAAAMAAAAm9MiXdAAAg");
 	this.shape.setTransform(484.8,124.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(962));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(995));
 
 	// ATT LOGO
 	this.instance = new lib.logopngcopy();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(962));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(995));
 
 	// fadermask (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	var mask_graphics_806 = new cjs.Graphics().p("EhIzAQ3MAAAghtMCRnAAAMAAAAhtg");
+	var mask_graphics_839 = new cjs.Graphics().p("EhIzAQ3MAAAghtMCRnAAAMAAAAhtg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(806).to({graphics:mask_graphics_806,x:483.9,y:125.1}).wait(24).to({graphics:null,x:0,y:0}).wait(132));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(839).to({graphics:mask_graphics_839,x:483.9,y:125.1}).wait(24).to({graphics:null,x:0,y:0}).wait(132));
 
 	// fader
 	this.shape_1 = new cjs.Shape();
@@ -958,9 +958,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 
 	this.shape_1.mask = this.shape_2.mask = this.shape_3.mask = this.shape_4.mask = this.shape_5.mask = this.shape_6.mask = this.shape_7.mask = this.shape_8.mask = this.shape_9.mask = this.shape_10.mask = this.shape_11.mask = this.shape_12.mask = this.shape_13.mask = this.shape_14.mask = this.shape_15.mask = this.shape_16.mask = this.shape_17.mask = this.shape_18.mask = this.shape_19.mask = this.shape_20.mask = this.shape_21.mask = this.shape_22.mask = this.shape_23.mask = this.shape_24.mask = this.shape_25.mask = this.shape_26.mask = this.shape_27.mask = this.shape_28.mask = this.shape_29.mask = this.shape_30.mask = this.shape_31.mask = this.shape_32.mask = this.shape_33.mask = this.shape_34.mask = this.shape_35.mask = this.shape_36.mask = this.shape_37.mask = this.shape_38.mask = this.shape_39.mask = this.shape_40.mask = this.shape_41.mask = this.shape_42.mask = this.shape_43.mask = this.shape_44.mask = this.shape_45.mask = this.shape_46.mask = this.shape_47.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1}]}).to({state:[{t:this.shape_2}]},1).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_4}]},1).to({state:[{t:this.shape_5}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_7}]},1).to({state:[{t:this.shape_8}]},1).to({state:[{t:this.shape_9}]},1).to({state:[{t:this.shape_10}]},1).to({state:[{t:this.shape_11}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},151).to({state:[{t:this.shape_12}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_14}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_15}]},1).to({state:[{t:this.shape_16}]},1).to({state:[{t:this.shape_17}]},1).to({state:[{t:this.shape_1}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},199).to({state:[{t:this.shape_12}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_14}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_15}]},1).to({state:[{t:this.shape_16}]},1).to({state:[{t:this.shape_17}]},1).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape_18}]},1).to({state:[{t:this.shape_19}]},1).to({state:[{t:this.shape_20}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_21}]},1).to({state:[{t:this.shape_22}]},1).to({state:[{t:this.shape_23}]},1).to({state:[{t:this.shape_11}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},256).to({state:[{t:this.shape_12}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_14}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_15}]},1).to({state:[{t:this.shape_16}]},1).to({state:[{t:this.shape_17}]},1).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape_24}]},1).to({state:[{t:this.shape_25}]},1).to({state:[{t:this.shape_26}]},1).to({state:[{t:this.shape_27}]},1).to({state:[{t:this.shape_8}]},1).to({state:[{t:this.shape_28}]},1).to({state:[{t:this.shape_29}]},1).to({state:[{t:this.shape_30}]},1).to({state:[{t:this.shape_31}]},1).to({state:[{t:this.shape_32}]},1).to({state:[{t:this.shape_11}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},143).to({state:[{t:this.shape_33}]},1).to({state:[{t:this.shape_29}]},1).to({state:[{t:this.shape_9}]},1).to({state:[{t:this.shape_34}]},1).to({state:[{t:this.shape_35}]},1).to({state:[{t:this.shape_7}]},1).to({state:[{t:this.shape_36}]},1).to({state:[{t:this.shape_37}]},1).to({state:[{t:this.shape_5}]},1).to({state:[{t:this.shape_38}]},1).to({state:[{t:this.shape_39}]},1).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_40}]},1).to({state:[{t:this.shape_41}]},1).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape_18}]},1).to({state:[{t:this.shape_19}]},1).to({state:[{t:this.shape_42}]},1).to({state:[{t:this.shape_43}]},1).to({state:[{t:this.shape_44}]},1).to({state:[{t:this.shape_45}]},1).to({state:[{t:this.shape_46}]},1).to({state:[{t:this.shape_47}]},1).to({state:[]},1).to({state:[]},37).wait(95));
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).to({_off:true},1).wait(169).to({_off:false},0).to({_off:true},1).wait(207).to({_off:false},0).to({_off:true},1).wait(272).to({_off:false},0).to({_off:true},1).wait(169).to({_off:false},0).to({_off:true},1).wait(140));
-	this.timeline.addTween(cjs.Tween.get(this.shape_11).wait(10).to({_off:false},0).to({_off:true},1).wait(151).to({_off:false},0).to({_off:true},1).wait(207).to({_off:false},0).to({_off:true},1).wait(15).to({_off:false},0).to({_off:true},1).wait(256).to({_off:false},0).to({_off:true},1).wait(18).to({_off:false},0).to({_off:true},1).wait(143).to({_off:false},0).to({_off:true},1).wait(155));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1}]}).to({state:[{t:this.shape_2}]},1).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_4}]},1).to({state:[{t:this.shape_5}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_7}]},1).to({state:[{t:this.shape_8}]},1).to({state:[{t:this.shape_9}]},1).to({state:[{t:this.shape_10}]},1).to({state:[{t:this.shape_11}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},184).to({state:[{t:this.shape_12}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_14}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_15}]},1).to({state:[{t:this.shape_16}]},1).to({state:[{t:this.shape_17}]},1).to({state:[{t:this.shape_1}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},199).to({state:[{t:this.shape_12}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_14}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_15}]},1).to({state:[{t:this.shape_16}]},1).to({state:[{t:this.shape_17}]},1).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape_18}]},1).to({state:[{t:this.shape_19}]},1).to({state:[{t:this.shape_20}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_21}]},1).to({state:[{t:this.shape_22}]},1).to({state:[{t:this.shape_23}]},1).to({state:[{t:this.shape_11}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},256).to({state:[{t:this.shape_12}]},1).to({state:[{t:this.shape_13}]},1).to({state:[{t:this.shape_14}]},1).to({state:[{t:this.shape_6}]},1).to({state:[{t:this.shape_15}]},1).to({state:[{t:this.shape_16}]},1).to({state:[{t:this.shape_17}]},1).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape_24}]},1).to({state:[{t:this.shape_25}]},1).to({state:[{t:this.shape_26}]},1).to({state:[{t:this.shape_27}]},1).to({state:[{t:this.shape_8}]},1).to({state:[{t:this.shape_28}]},1).to({state:[{t:this.shape_29}]},1).to({state:[{t:this.shape_30}]},1).to({state:[{t:this.shape_31}]},1).to({state:[{t:this.shape_32}]},1).to({state:[{t:this.shape_11}]},1).to({state:[]},1).to({state:[{t:this.shape_11}]},143).to({state:[{t:this.shape_33}]},1).to({state:[{t:this.shape_29}]},1).to({state:[{t:this.shape_9}]},1).to({state:[{t:this.shape_34}]},1).to({state:[{t:this.shape_35}]},1).to({state:[{t:this.shape_7}]},1).to({state:[{t:this.shape_36}]},1).to({state:[{t:this.shape_37}]},1).to({state:[{t:this.shape_5}]},1).to({state:[{t:this.shape_38}]},1).to({state:[{t:this.shape_39}]},1).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_40}]},1).to({state:[{t:this.shape_41}]},1).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape_18}]},1).to({state:[{t:this.shape_19}]},1).to({state:[{t:this.shape_42}]},1).to({state:[{t:this.shape_43}]},1).to({state:[{t:this.shape_44}]},1).to({state:[{t:this.shape_45}]},1).to({state:[{t:this.shape_46}]},1).to({state:[{t:this.shape_47}]},1).to({state:[]},1).to({state:[]},37).wait(95));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).to({_off:true},1).wait(202).to({_off:false},0).to({_off:true},1).wait(207).to({_off:false},0).to({_off:true},1).wait(272).to({_off:false},0).to({_off:true},1).wait(169).to({_off:false},0).to({_off:true},1).wait(140));
+	this.timeline.addTween(cjs.Tween.get(this.shape_11).wait(10).to({_off:false},0).to({_off:true},1).wait(184).to({_off:false},0).to({_off:true},1).wait(207).to({_off:false},0).to({_off:true},1).wait(15).to({_off:false},0).to({_off:true},1).wait(256).to({_off:false},0).to({_off:true},1).wait(18).to({_off:false},0).to({_off:true},1).wait(143).to({_off:false},0).to({_off:true},1).wait(155));
 
 	// text1
 	this.instance_1 = new lib.t1();
@@ -993,11 +993,11 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(45).to({_off:false},0).to({x:150,alpha:1},44,cjs.Ease.get(1)).to({_off:true},82).wait(791));
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(250).to({_off:false},0).to({x:150,alpha:1},51,cjs.Ease.get(1)).to({_off:true},78).wait(583));
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(411).to({_off:false},0).to({x:150,alpha:1},51,cjs.Ease.get(1)).to({_off:true},190).wait(310));
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(660).to({_off:false},0).to({x:150,alpha:1},50,cjs.Ease.get(1)).to({_off:true},111).wait(141));
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(829).to({_off:false},0).to({alpha:1},35).wait(98));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(45).to({_off:false},0).to({x:150,alpha:1},44,cjs.Ease.get(1)).to({_off:true},115).wait(791));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(283).to({_off:false},0).to({x:150,alpha:1},51,cjs.Ease.get(1)).to({_off:true},78).wait(583));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(444).to({_off:false},0).to({x:150,alpha:1},51,cjs.Ease.get(1)).to({_off:true},190).wait(310));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(693).to({_off:false},0).to({x:150,alpha:1},50,cjs.Ease.get(1)).to({_off:true},111).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(862).to({_off:false},0).to({alpha:1},35).wait(98));
 
 	// text2
 	this.instance_6 = new lib.Tween2("synched",0);
@@ -1012,8 +1012,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(673).to({_off:false},0).to({x:485,alpha:1},51,cjs.Ease.get(1)).to({_off:true},97).wait(141));
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(864).to({_off:false},0).to({alpha:1},45,cjs.Ease.get(1)).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(706).to({_off:false},0).to({x:485,alpha:1},51,cjs.Ease.get(1)).to({_off:true},97).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(897).to({_off:false},0).to({alpha:1},45,cjs.Ease.get(1)).wait(53));
 
 	// text3
 	this.instance_8 = new lib.Tween1("synched",0);
@@ -1022,7 +1022,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(831).to({_off:false},0).to({alpha:1},35).wait(96));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(864).to({_off:false},0).to({alpha:1},35).wait(96));
 
 	// blue effect
 	this.shape_48 = new cjs.Shape();
@@ -1805,7 +1805,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.shape_242.graphics.f("#009FDB").s().p("EgoJADvIAAneMBQTAAAIAAHeg");
 	this.shape_242.setTransform(513,145.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_48}]},64).to({state:[{t:this.shape_49}]},1).to({state:[{t:this.shape_50}]},1).to({state:[{t:this.shape_51}]},1).to({state:[{t:this.shape_52}]},1).to({state:[{t:this.shape_53}]},1).to({state:[{t:this.shape_54}]},1).to({state:[{t:this.shape_55}]},1).to({state:[{t:this.shape_56}]},1).to({state:[{t:this.shape_57}]},1).to({state:[{t:this.shape_58}]},1).to({state:[{t:this.shape_59}]},1).to({state:[{t:this.shape_60}]},1).to({state:[{t:this.shape_61}]},1).to({state:[{t:this.shape_62}]},1).to({state:[{t:this.shape_63}]},1).to({state:[{t:this.shape_64}]},1).to({state:[{t:this.shape_65}]},1).to({state:[{t:this.shape_66}]},1).to({state:[{t:this.shape_67}]},1).to({state:[{t:this.shape_68}]},1).to({state:[{t:this.shape_69}]},1).to({state:[{t:this.shape_70}]},1).to({state:[{t:this.shape_71}]},1).to({state:[{t:this.shape_72}]},1).to({state:[{t:this.shape_73}]},1).to({state:[{t:this.shape_74}]},1).to({state:[{t:this.shape_75}]},1).to({state:[{t:this.shape_76}]},1).to({state:[{t:this.shape_77}]},1).to({state:[{t:this.shape_78}]},1).to({state:[{t:this.shape_79}]},1).to({state:[{t:this.shape_80}]},1).to({state:[{t:this.shape_81}]},1).to({state:[{t:this.shape_82}]},1).to({state:[{t:this.shape_83}]},1).to({state:[{t:this.shape_84}]},1).to({state:[{t:this.shape_85}]},1).to({state:[{t:this.shape_86}]},1).to({state:[{t:this.shape_87}]},1).to({state:[{t:this.shape_88}]},1).to({state:[{t:this.shape_89}]},1).to({state:[{t:this.shape_90}]},1).to({state:[{t:this.shape_91}]},1).to({state:[{t:this.shape_92}]},1).to({state:[{t:this.shape_93}]},1).to({state:[{t:this.shape_94}]},1).to({state:[{t:this.shape_95}]},1).to({state:[{t:this.shape_96}]},1).to({state:[{t:this.shape_97}]},1).to({state:[]},58).to({state:[{t:this.shape_98}]},104).to({state:[{t:this.shape_99}]},1).to({state:[{t:this.shape_100}]},1).to({state:[{t:this.shape_101}]},1).to({state:[{t:this.shape_102}]},1).to({state:[{t:this.shape_103}]},1).to({state:[{t:this.shape_104}]},1).to({state:[{t:this.shape_105}]},1).to({state:[{t:this.shape_106}]},1).to({state:[{t:this.shape_107}]},1).to({state:[{t:this.shape_108}]},1).to({state:[{t:this.shape_109}]},1).to({state:[{t:this.shape_110}]},1).to({state:[{t:this.shape_111}]},1).to({state:[{t:this.shape_112}]},1).to({state:[{t:this.shape_113}]},1).to({state:[{t:this.shape_114}]},1).to({state:[{t:this.shape_115}]},1).to({state:[{t:this.shape_116}]},1).to({state:[{t:this.shape_117}]},1).to({state:[{t:this.shape_118}]},1).to({state:[{t:this.shape_119}]},1).to({state:[{t:this.shape_120}]},1).to({state:[{t:this.shape_121}]},1).to({state:[{t:this.shape_122}]},1).to({state:[{t:this.shape_123}]},1).to({state:[{t:this.shape_124}]},1).to({state:[{t:this.shape_125}]},1).to({state:[{t:this.shape_126}]},1).to({state:[{t:this.shape_127}]},1).to({state:[{t:this.shape_128}]},1).to({state:[{t:this.shape_129}]},1).to({state:[{t:this.shape_130}]},1).to({state:[{t:this.shape_131}]},1).to({state:[{t:this.shape_132}]},1).to({state:[{t:this.shape_133}]},1).to({state:[{t:this.shape_134}]},1).to({state:[{t:this.shape_135}]},1).to({state:[{t:this.shape_136}]},1).to({state:[{t:this.shape_137}]},1).to({state:[{t:this.shape_138}]},1).to({state:[{t:this.shape_139}]},1).to({state:[{t:this.shape_140}]},1).to({state:[{t:this.shape_141}]},1).to({state:[{t:this.shape_142}]},1).to({state:[{t:this.shape_143}]},1).to({state:[]},59).to({state:[{t:this.shape_144}]},55).to({state:[{t:this.shape_145}]},1).to({state:[{t:this.shape_146}]},1).to({state:[{t:this.shape_147}]},1).to({state:[{t:this.shape_148}]},1).to({state:[{t:this.shape_149}]},1).to({state:[{t:this.shape_150}]},1).to({state:[{t:this.shape_151}]},1).to({state:[{t:this.shape_152}]},1).to({state:[{t:this.shape_153}]},1).to({state:[{t:this.shape_154}]},1).to({state:[{t:this.shape_155}]},1).to({state:[{t:this.shape_156}]},1).to({state:[{t:this.shape_157}]},1).to({state:[{t:this.shape_158}]},1).to({state:[{t:this.shape_159}]},1).to({state:[{t:this.shape_160}]},1).to({state:[{t:this.shape_161}]},1).to({state:[{t:this.shape_162}]},1).to({state:[{t:this.shape_163}]},1).to({state:[{t:this.shape_164}]},1).to({state:[{t:this.shape_165}]},1).to({state:[{t:this.shape_166}]},1).to({state:[{t:this.shape_167}]},1).to({state:[{t:this.shape_168}]},1).to({state:[{t:this.shape_169}]},1).to({state:[{t:this.shape_170}]},1).to({state:[{t:this.shape_171}]},1).to({state:[{t:this.shape_172}]},1).to({state:[{t:this.shape_173}]},1).to({state:[{t:this.shape_174}]},1).to({state:[{t:this.shape_175}]},1).to({state:[{t:this.shape_176}]},1).to({state:[{t:this.shape_177}]},1).to({state:[{t:this.shape_178}]},1).to({state:[{t:this.shape_179}]},1).to({state:[{t:this.shape_180}]},1).to({state:[{t:this.shape_181}]},1).to({state:[{t:this.shape_182}]},1).to({state:[{t:this.shape_183}]},1).to({state:[{t:this.shape_184}]},1).to({state:[{t:this.shape_185}]},1).to({state:[{t:this.shape_186}]},1).to({state:[{t:this.shape_187}]},1).to({state:[{t:this.shape_188}]},1).to({state:[{t:this.shape_189}]},1).to({state:[{t:this.shape_190}]},1).to({state:[{t:this.shape_191}]},1).to({state:[]},171).to({state:[{t:this.shape_192}]},32).to({state:[{t:this.shape_193}]},1).to({state:[{t:this.shape_194}]},1).to({state:[{t:this.shape_195}]},1).to({state:[{t:this.shape_196}]},1).to({state:[{t:this.shape_197}]},1).to({state:[{t:this.shape_198}]},1).to({state:[{t:this.shape_199}]},1).to({state:[{t:this.shape_200}]},1).to({state:[{t:this.shape_201}]},1).to({state:[{t:this.shape_202}]},1).to({state:[{t:this.shape_203}]},1).to({state:[{t:this.shape_204}]},1).to({state:[{t:this.shape_205}]},1).to({state:[{t:this.shape_206}]},1).to({state:[{t:this.shape_207}]},1).to({state:[{t:this.shape_208}]},1).to({state:[{t:this.shape_209}]},1).to({state:[{t:this.shape_210}]},1).to({state:[{t:this.shape_211}]},1).to({state:[{t:this.shape_212}]},1).to({state:[{t:this.shape_213}]},1).to({state:[{t:this.shape_214}]},1).to({state:[{t:this.shape_215}]},1).to({state:[{t:this.shape_216}]},1).to({state:[{t:this.shape_217}]},1).to({state:[{t:this.shape_218}]},1).to({state:[{t:this.shape_219}]},1).to({state:[{t:this.shape_220}]},1).to({state:[{t:this.shape_221}]},1).to({state:[{t:this.shape_222}]},1).to({state:[{t:this.shape_223}]},1).to({state:[{t:this.shape_224}]},1).to({state:[{t:this.shape_225}]},1).to({state:[{t:this.shape_226}]},1).to({state:[{t:this.shape_227}]},1).to({state:[{t:this.shape_228}]},1).to({state:[{t:this.shape_229}]},1).to({state:[{t:this.shape_230}]},1).to({state:[{t:this.shape_231}]},1).to({state:[{t:this.shape_232}]},1).to({state:[{t:this.shape_233}]},1).to({state:[{t:this.shape_234}]},1).to({state:[{t:this.shape_235}]},1).to({state:[{t:this.shape_236}]},1).to({state:[{t:this.shape_237}]},1).to({state:[{t:this.shape_238}]},1).to({state:[{t:this.shape_239}]},1).to({state:[{t:this.shape_240}]},1).to({state:[{t:this.shape_241}]},1).to({state:[{t:this.shape_242}]},1).to({state:[]},87).to({state:[]},1).wait(140));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_48}]},64).to({state:[{t:this.shape_49}]},1).to({state:[{t:this.shape_50}]},1).to({state:[{t:this.shape_51}]},1).to({state:[{t:this.shape_52}]},1).to({state:[{t:this.shape_53}]},1).to({state:[{t:this.shape_54}]},1).to({state:[{t:this.shape_55}]},1).to({state:[{t:this.shape_56}]},1).to({state:[{t:this.shape_57}]},1).to({state:[{t:this.shape_58}]},1).to({state:[{t:this.shape_59}]},1).to({state:[{t:this.shape_60}]},1).to({state:[{t:this.shape_61}]},1).to({state:[{t:this.shape_62}]},1).to({state:[{t:this.shape_63}]},1).to({state:[{t:this.shape_64}]},1).to({state:[{t:this.shape_65}]},1).to({state:[{t:this.shape_66}]},1).to({state:[{t:this.shape_67}]},1).to({state:[{t:this.shape_68}]},1).to({state:[{t:this.shape_69}]},1).to({state:[{t:this.shape_70}]},1).to({state:[{t:this.shape_71}]},1).to({state:[{t:this.shape_72}]},1).to({state:[{t:this.shape_73}]},1).to({state:[{t:this.shape_74}]},1).to({state:[{t:this.shape_75}]},1).to({state:[{t:this.shape_76}]},1).to({state:[{t:this.shape_77}]},1).to({state:[{t:this.shape_78}]},1).to({state:[{t:this.shape_79}]},1).to({state:[{t:this.shape_80}]},1).to({state:[{t:this.shape_81}]},1).to({state:[{t:this.shape_82}]},1).to({state:[{t:this.shape_83}]},1).to({state:[{t:this.shape_84}]},1).to({state:[{t:this.shape_85}]},1).to({state:[{t:this.shape_86}]},1).to({state:[{t:this.shape_87}]},1).to({state:[{t:this.shape_88}]},1).to({state:[{t:this.shape_89}]},1).to({state:[{t:this.shape_90}]},1).to({state:[{t:this.shape_91}]},1).to({state:[{t:this.shape_92}]},1).to({state:[{t:this.shape_93}]},1).to({state:[{t:this.shape_94}]},1).to({state:[{t:this.shape_95}]},1).to({state:[{t:this.shape_96}]},1).to({state:[{t:this.shape_97}]},1).to({state:[]},91).to({state:[{t:this.shape_98}]},104).to({state:[{t:this.shape_99}]},1).to({state:[{t:this.shape_100}]},1).to({state:[{t:this.shape_101}]},1).to({state:[{t:this.shape_102}]},1).to({state:[{t:this.shape_103}]},1).to({state:[{t:this.shape_104}]},1).to({state:[{t:this.shape_105}]},1).to({state:[{t:this.shape_106}]},1).to({state:[{t:this.shape_107}]},1).to({state:[{t:this.shape_108}]},1).to({state:[{t:this.shape_109}]},1).to({state:[{t:this.shape_110}]},1).to({state:[{t:this.shape_111}]},1).to({state:[{t:this.shape_112}]},1).to({state:[{t:this.shape_113}]},1).to({state:[{t:this.shape_114}]},1).to({state:[{t:this.shape_115}]},1).to({state:[{t:this.shape_116}]},1).to({state:[{t:this.shape_117}]},1).to({state:[{t:this.shape_118}]},1).to({state:[{t:this.shape_119}]},1).to({state:[{t:this.shape_120}]},1).to({state:[{t:this.shape_121}]},1).to({state:[{t:this.shape_122}]},1).to({state:[{t:this.shape_123}]},1).to({state:[{t:this.shape_124}]},1).to({state:[{t:this.shape_125}]},1).to({state:[{t:this.shape_126}]},1).to({state:[{t:this.shape_127}]},1).to({state:[{t:this.shape_128}]},1).to({state:[{t:this.shape_129}]},1).to({state:[{t:this.shape_130}]},1).to({state:[{t:this.shape_131}]},1).to({state:[{t:this.shape_132}]},1).to({state:[{t:this.shape_133}]},1).to({state:[{t:this.shape_134}]},1).to({state:[{t:this.shape_135}]},1).to({state:[{t:this.shape_136}]},1).to({state:[{t:this.shape_137}]},1).to({state:[{t:this.shape_138}]},1).to({state:[{t:this.shape_139}]},1).to({state:[{t:this.shape_140}]},1).to({state:[{t:this.shape_141}]},1).to({state:[{t:this.shape_142}]},1).to({state:[{t:this.shape_143}]},1).to({state:[]},59).to({state:[{t:this.shape_144}]},55).to({state:[{t:this.shape_145}]},1).to({state:[{t:this.shape_146}]},1).to({state:[{t:this.shape_147}]},1).to({state:[{t:this.shape_148}]},1).to({state:[{t:this.shape_149}]},1).to({state:[{t:this.shape_150}]},1).to({state:[{t:this.shape_151}]},1).to({state:[{t:this.shape_152}]},1).to({state:[{t:this.shape_153}]},1).to({state:[{t:this.shape_154}]},1).to({state:[{t:this.shape_155}]},1).to({state:[{t:this.shape_156}]},1).to({state:[{t:this.shape_157}]},1).to({state:[{t:this.shape_158}]},1).to({state:[{t:this.shape_159}]},1).to({state:[{t:this.shape_160}]},1).to({state:[{t:this.shape_161}]},1).to({state:[{t:this.shape_162}]},1).to({state:[{t:this.shape_163}]},1).to({state:[{t:this.shape_164}]},1).to({state:[{t:this.shape_165}]},1).to({state:[{t:this.shape_166}]},1).to({state:[{t:this.shape_167}]},1).to({state:[{t:this.shape_168}]},1).to({state:[{t:this.shape_169}]},1).to({state:[{t:this.shape_170}]},1).to({state:[{t:this.shape_171}]},1).to({state:[{t:this.shape_172}]},1).to({state:[{t:this.shape_173}]},1).to({state:[{t:this.shape_174}]},1).to({state:[{t:this.shape_175}]},1).to({state:[{t:this.shape_176}]},1).to({state:[{t:this.shape_177}]},1).to({state:[{t:this.shape_178}]},1).to({state:[{t:this.shape_179}]},1).to({state:[{t:this.shape_180}]},1).to({state:[{t:this.shape_181}]},1).to({state:[{t:this.shape_182}]},1).to({state:[{t:this.shape_183}]},1).to({state:[{t:this.shape_184}]},1).to({state:[{t:this.shape_185}]},1).to({state:[{t:this.shape_186}]},1).to({state:[{t:this.shape_187}]},1).to({state:[{t:this.shape_188}]},1).to({state:[{t:this.shape_189}]},1).to({state:[{t:this.shape_190}]},1).to({state:[{t:this.shape_191}]},1).to({state:[]},171).to({state:[{t:this.shape_192}]},32).to({state:[{t:this.shape_193}]},1).to({state:[{t:this.shape_194}]},1).to({state:[{t:this.shape_195}]},1).to({state:[{t:this.shape_196}]},1).to({state:[{t:this.shape_197}]},1).to({state:[{t:this.shape_198}]},1).to({state:[{t:this.shape_199}]},1).to({state:[{t:this.shape_200}]},1).to({state:[{t:this.shape_201}]},1).to({state:[{t:this.shape_202}]},1).to({state:[{t:this.shape_203}]},1).to({state:[{t:this.shape_204}]},1).to({state:[{t:this.shape_205}]},1).to({state:[{t:this.shape_206}]},1).to({state:[{t:this.shape_207}]},1).to({state:[{t:this.shape_208}]},1).to({state:[{t:this.shape_209}]},1).to({state:[{t:this.shape_210}]},1).to({state:[{t:this.shape_211}]},1).to({state:[{t:this.shape_212}]},1).to({state:[{t:this.shape_213}]},1).to({state:[{t:this.shape_214}]},1).to({state:[{t:this.shape_215}]},1).to({state:[{t:this.shape_216}]},1).to({state:[{t:this.shape_217}]},1).to({state:[{t:this.shape_218}]},1).to({state:[{t:this.shape_219}]},1).to({state:[{t:this.shape_220}]},1).to({state:[{t:this.shape_221}]},1).to({state:[{t:this.shape_222}]},1).to({state:[{t:this.shape_223}]},1).to({state:[{t:this.shape_224}]},1).to({state:[{t:this.shape_225}]},1).to({state:[{t:this.shape_226}]},1).to({state:[{t:this.shape_227}]},1).to({state:[{t:this.shape_228}]},1).to({state:[{t:this.shape_229}]},1).to({state:[{t:this.shape_230}]},1).to({state:[{t:this.shape_231}]},1).to({state:[{t:this.shape_232}]},1).to({state:[{t:this.shape_233}]},1).to({state:[{t:this.shape_234}]},1).to({state:[{t:this.shape_235}]},1).to({state:[{t:this.shape_236}]},1).to({state:[{t:this.shape_237}]},1).to({state:[{t:this.shape_238}]},1).to({state:[{t:this.shape_239}]},1).to({state:[{t:this.shape_240}]},1).to({state:[{t:this.shape_241}]},1).to({state:[{t:this.shape_242}]},1).to({state:[]},87).to({state:[]},1).wait(140));
 
 	// legal1
 	this.instance_9 = new lib.l1();
@@ -1820,8 +1820,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_10.alpha = 0;
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(454).to({_off:false},0).to({alpha:1},47).to({_off:true},151).wait(310));
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(890).to({_off:false},0).to({alpha:1},31).wait(41));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(487).to({_off:false},0).to({alpha:1},47).to({_off:true},151).wait(310));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(923).to({_off:false},0).to({alpha:1},31).wait(41));
 
 	// legal2
 	this.instance_11 = new lib.legal22_1();
@@ -1830,7 +1830,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_11.alpha = 0;
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(890).to({_off:false},0).to({alpha:1},31).wait(41));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(923).to({_off:false},0).to({alpha:1},31).wait(41));
 
 	// squares
 	this.instance_12 = new lib.squares("synched",0,false);
@@ -1838,15 +1838,15 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_12.setTransform(75,62.6,1,1,0,0,0,75,62.5);
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(171).to({_off:false},0).to({_off:true},384).wait(407));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(204).to({_off:false},0).to({_off:true},384).wait(407));
 
 	// tv-effect
 	this.instance_13 = new lib.tveffect("synched",0,false);
 	this.instance_13.parent = this;
-	this.instance_13.setTransform(223.2,-24,2.577,2.577,0,0,0,-38.8,-228.2);
+	this.instance_13.setTransform(319.1,-23.8,2.502,2.502,0,0,0,-38.8,-228.1);
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(379).to({_off:false},0).to({_off:true},65).wait(518));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(412).to({_off:false},0).to({_off:true},65).wait(518));
 
 	// flare-top
 	this.instance_14 = new lib.flaretop();
@@ -1855,7 +1855,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(652).to({_off:false},0).to({scaleX:0.74,x:251.5,alpha:1},28,cjs.Ease.get(-1)).to({scaleX:1,x:694.5,alpha:0},100,cjs.Ease.get(1)).wait(182));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(685).to({_off:false},0).to({scaleX:0.74,x:251.5,alpha:1},28,cjs.Ease.get(-1)).to({scaleX:1,x:694.5,alpha:0},100,cjs.Ease.get(1)).wait(182));
 
 	// flare-left
 	this.instance_15 = new lib.flareleft();
@@ -1864,7 +1864,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_15.alpha = 0;
 	this.instance_15._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(652).to({_off:false},0).to({regY:78.1,scaleY:0.5,x:11.7,y:184.2,alpha:1},28,cjs.Ease.get(-1)).to({regX:9,regY:78,scaleY:0.53,x:10.6,y:43.1,alpha:0.102},100,cjs.Ease.get(1)).wait(182));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(685).to({_off:false},0).to({regY:78.1,scaleY:0.5,x:11.7,y:184.2,alpha:1},28,cjs.Ease.get(-1)).to({regX:9,regY:78,scaleY:0.53,x:10.6,y:43.1,alpha:0.102},100,cjs.Ease.get(1)).wait(182));
 
 	// bgs
 	this.instance_16 = new lib.bg1();
@@ -1874,10 +1874,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_17 = new lib.back2();
 	this.instance_17.parent = this;
 
-	this.shape_243 = new cjs.Shape();
-	this.shape_243.graphics.f("#000000").s().p("AhUT1MAAAgnpICoAAMAAAAnpg");
-	this.shape_243.setTransform(775.5,124);
-
 	this.instance_18 = new lib.back3();
 	this.instance_18.parent = this;
 
@@ -1885,8 +1881,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,250);
 	this.instance_19.parent = this;
 	this.instance_19.setTransform(0,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_16}]}).to({state:[{t:this.instance_16}]},75).to({state:[{t:this.instance_17}]},96).to({state:[{t:this.instance_18},{t:this.shape_243}]},208).to({state:[{t:this.instance_19}]},273).wait(310));
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).to({scaleX:1,scaleY:1,x:150},75,cjs.Ease.get(1)).to({_off:true},96).wait(791));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_16}]}).to({state:[{t:this.instance_16}]},75).to({state:[{t:this.instance_17}]},129).to({state:[{t:this.instance_18}]},208).to({state:[{t:this.instance_19}]},273).wait(310));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).to({scaleX:1,scaleY:1,x:150},75,cjs.Ease.get(1)).to({_off:true},129).wait(791));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(444,115,1047.6,270);
